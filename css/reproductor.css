@@ -1,0 +1,146 @@
+body {
+	text-align: center;
+	background: #008B8B;
+}
+
+@media screen and (max-width: 480px) {
+	#reproductor {
+	width: 98%;
+	margin: 2% auto;
+	padding: .5%;
+	background: #6495ED;
+	border: 1px solid #00CED1;
+	-moz-border-radius: 1%;
+	-webkit-border-radius: 1%;
+	border-radius: 1%;
+	}
+
+	#botones {
+		height: 30px;
+	}
+
+	#barra {
+		bottom: 30px;
+		position: relative;
+		width: 99%;
+		height: 12px;
+		padding: 1px;
+		background: #A9A9A9;
+		border: 1px solid #F08080;
+	}
+
+	#progreso {
+		position: absolute;
+		width: 0%;
+		height: 11px;
+		background: #00BFFF;
+	}
+
+	#reproducir {
+		height: 20px;
+		margin-top: 20px;
+	}
+
+	#medio {
+		width: 100%;
+		height: 100%;
+	}
+}
+
+@media screen and (min-width: 481px) and (max-width: 980px) {
+	#reproductor {
+	width: 98%;
+	margin: 2% auto;
+	padding: .5%;
+	background: #6495ED;
+	border: 1px solid #00CED1;
+	-moz-border-radius: 1%;
+	-webkit-border-radius: 1%;
+	border-radius: 1%;
+	}
+
+	#botones {
+		float: left;
+		width: 18%;
+		height: 5%;
+	}
+
+	#barra {
+		position: relative;
+		float: left;
+		width: 80%;
+		height: 12px;
+		padding: 1px;
+		background: #A9A9A9;
+		border: 1px solid #F08080;
+	}
+
+	#progreso {
+		position: absolute;
+		width: 0%;
+		height: 11px;
+		background: #00BFFF;
+	}
+
+	#reproducir {
+		height: 20px;
+	}
+
+	nav {
+		margin-top: .5%;
+	}
+
+	#medio {
+		width: 100%;
+		height: 100%;
+	}
+}
+
+ @media screen and (min-width: 981px) {
+	#reproductor {
+	width: 54%;
+	margin: 2% auto;
+	padding: .5%;
+	background: #6495ED;
+	border: 1px solid #00CED1;
+	-moz-border-radius: 1%;
+	-webkit-border-radius: 1%;
+	border-radius: 1%;
+	}
+
+	#botones {
+		float: left;
+		width: 16%;
+		height: 5%;
+	}
+
+	#barra {
+		position: relative;
+		float: left;
+		width: 80%;
+		height: 12px;
+		padding: 1px;
+		background: #A9A9A9;
+		border: 1px solid #F08080;
+	}
+
+	#progreso {
+		position: absolute;
+		width: 0%;
+		height: 11px;
+		background: #00BFFF;
+	}
+
+	#reproducir {
+		height: 20px;
+	}
+
+	nav {
+		margin-top: .5%;
+	}
+
+	#medio {
+		width: 100%;
+		height: 100%;
+	}
+ }
